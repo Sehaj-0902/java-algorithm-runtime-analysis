@@ -30,7 +30,7 @@ public class SearchAlgorithmComparison {
         }
     }
 
-    // Method to generate random array for dataset
+    // Method to generate random array for datasets
     public static int[] generateRandomArray(int size) {
         Random random = new Random();
         int[] array = new int[size];
