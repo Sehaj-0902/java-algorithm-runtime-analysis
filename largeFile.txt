@@ -1,0 +1,179 @@
+Best Practices for Runtime Analysis & Big O Notation:
+
+When designing algorithms, follow these best practices to ensure optimal time and space complexity.
+
+1. General Algorithm Best Practices
+
+   a. Choose the right data structure:
+      1. Use `HashMap` for O(1) lookups instead of `ArrayList` (O(N)).
+      2. Use `TreeSet` for ordered data retrieval with O(log N) complexity.
+
+   b. Optimize loops & conditions:
+      1. Avoid unnecessary nested loops (O(N²) or worse).
+      2. Use `break`/`return` early to reduce iterations.
+
+   c. Use sorting efficiently:
+      1. Prefer Merge Sort (O(N log N)) over Bubble Sort (O(N²)).
+      2. If frequent sorting is needed, consider `TreeMap` (O(log N) per operation).
+
+   d. Avoid excessive recursion:
+      1. Recursive Fibonacci (O(2ⁿ)) is inefficient; use Memoization (O(N)).
+      2. Use Tail Recursion when applicable.
+
+   e. Reduce redundant computations:
+      1. Store results of expensive operations using caching/memoization.
+      2. Example: Use Dynamic Programming to avoid recomputation.
+
+2. Time & Space Complexity Optimization
+
+   a. Precompute values when possible:
+      1. If computing the same value multiple times, store it in a lookup table.
+
+   b. Use efficient searching methods:
+      1. Instead of Linear Search (O(N)), use Binary Search (O(log N)) for sorted data.
+
+   c. Use efficient iteration techniques:
+      1. Instead of `for (int i = 0; i < list.size(); i++)`, use for-each loops.
+      2. Example: `for (String s : list)`
+
+   d. Optimize memory usage:
+      1. Use `StringBuilder` instead of `String` for concatenation.
+      2. Use primitive types (int, double) over wrapper classes (Integer, Double) when possible.
+
+   e. Profile & benchmark performance:
+      1. Use Java’s `System.nanoTime()` or JMH (Java Microbenchmark Harness) to measure execution time.
+
+Best Practices for Runtime Analysis & Big O Notation:
+
+When designing algorithms, follow these best practices to ensure optimal time and space complexity.
+
+1. General Algorithm Best Practices
+
+   a. Choose the right data structure:
+      1. Use `HashMap` for O(1) lookups instead of `ArrayList` (O(N)).
+      2. Use `TreeSet` for ordered data retrieval with O(log N) complexity.
+
+   b. Optimize loops & conditions:
+      1. Avoid unnecessary nested loops (O(N²) or worse).
+      2. Use `break`/`return` early to reduce iterations.
+
+   c. Use sorting efficiently:
+      1. Prefer Merge Sort (O(N log N)) over Bubble Sort (O(N²)).
+      2. If frequent sorting is needed, consider `TreeMap` (O(log N) per operation).
+
+   d. Avoid excessive recursion:
+      1. Recursive Fibonacci (O(2ⁿ)) is inefficient; use Memoization (O(N)).
+      2. Use Tail Recursion when applicable.
+
+   e. Reduce redundant computations:
+      1. Store results of expensive operations using caching/memoization.
+      2. Example: Use Dynamic Programming to avoid recomputation.
+
+2. Time & Space Complexity Optimization
+
+   a. Precompute values when possible:
+      1. If computing the same value multiple times, store it in a lookup table.
+
+   b. Use efficient searching methods:
+      1. Instead of Linear Search (O(N)), use Binary Search (O(log N)) for sorted data.
+
+   c. Use efficient iteration techniques:
+      1. Instead of `for (int i = 0; i < list.size(); i++)`, use for-each loops.
+      2. Example: `for (String s : list)`
+
+   d. Optimize memory usage:
+      1. Use `StringBuilder` instead of `String` for concatenation.
+      2. Use primitive types (int, double) over wrapper classes (Integer, Double) when possible.
+
+   e. Profile & benchmark performance:
+      1. Use Java’s `System.nanoTime()` or JMH (Java Microbenchmark Harness) to measure execution time.
+
+Best Practices for Runtime Analysis & Big O Notation:
+
+When designing algorithms, follow these best practices to ensure optimal time and space complexity.
+
+1. General Algorithm Best Practices
+
+   a. Choose the right data structure:
+      1. Use `HashMap` for O(1) lookups instead of `ArrayList` (O(N)).
+      2. Use `TreeSet` for ordered data retrieval with O(log N) complexity.
+
+   b. Optimize loops & conditions:
+      1. Avoid unnecessary nested loops (O(N²) or worse).
+      2. Use `break`/`return` early to reduce iterations.
+
+   c. Use sorting efficiently:
+      1. Prefer Merge Sort (O(N log N)) over Bubble Sort (O(N²)).
+      2. If frequent sorting is needed, consider `TreeMap` (O(log N) per operation).
+
+   d. Avoid excessive recursion:
+      1. Recursive Fibonacci (O(2ⁿ)) is inefficient; use Memoization (O(N)).
+      2. Use Tail Recursion when applicable.
+
+   e. Reduce redundant computations:
+      1. Store results of expensive operations using caching/memoization.
+      2. Example: Use Dynamic Programming to avoid recomputation.
+
+2. Time & Space Complexity Optimization
+
+   a. Precompute values when possible:
+      1. If computing the same value multiple times, store it in a lookup table.
+
+   b. Use efficient searching methods:
+      1. Instead of Linear Search (O(N)), use Binary Search (O(log N)) for sorted data.
+
+   c. Use efficient iteration techniques:
+      1. Instead of `for (int i = 0; i < list.size(); i++)`, use for-each loops.
+      2. Example: `for (String s : list)`
+
+   d. Optimize memory usage:
+      1. Use `StringBuilder` instead of `String` for concatenation.
+      2. Use primitive types (int, double) over wrapper classes (Integer, Double) when possible.
+
+   e. Profile & benchmark performance:
+      1. Use Java’s `System.nanoTime()` or JMH (Java Microbenchmark Harness) to measure execution time.
+
+Best Practices for Runtime Analysis & Big O Notation:
+
+When designing algorithms, follow these best practices to ensure optimal time and space complexity.
+
+1. General Algorithm Best Practices
+
+   a. Choose the right data structure:
+      1. Use `HashMap` for O(1) lookups instead of `ArrayList` (O(N)).
+      2. Use `TreeSet` for ordered data retrieval with O(log N) complexity.
+
+   b. Optimize loops & conditions:
+      1. Avoid unnecessary nested loops (O(N²) or worse).
+      2. Use `break`/`return` early to reduce iterations.
+
+   c. Use sorting efficiently:
+      1. Prefer Merge Sort (O(N log N)) over Bubble Sort (O(N²)).
+      2. If frequent sorting is needed, consider `TreeMap` (O(log N) per operation).
+
+   d. Avoid excessive recursion:
+      1. Recursive Fibonacci (O(2ⁿ)) is inefficient; use Memoization (O(N)).
+      2. Use Tail Recursion when applicable.
+
+   e. Reduce redundant computations:
+      1. Store results of expensive operations using caching/memoization.
+      2. Example: Use Dynamic Programming to avoid recomputation.
+
+2. Time & Space Complexity Optimization
+
+   a. Precompute values when possible:
+      1. If computing the same value multiple times, store it in a lookup table.
+
+   b. Use efficient searching methods:
+      1. Instead of Linear Search (O(N)), use Binary Search (O(log N)) for sorted data.
+
+   c. Use efficient iteration techniques:
+      1. Instead of `for (int i = 0; i < list.size(); i++)`, use for-each loops.
+      2. Example: `for (String s : list)`
+
+   d. Optimize memory usage:
+      1. Use `StringBuilder` instead of `String` for concatenation.
+      2. Use primitive types (int, double) over wrapper classes (Integer, Double) when possible.
+
+   e. Profile & benchmark performance:
+      1. Use Java’s `System.nanoTime()` or JMH (Java Microbenchmark Harness) to measure execution time.
